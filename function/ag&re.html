@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        function sayhello()                                             //no argument and no return
+            {
+                 console.log('say Hello 👋')
+            }
+        sayhello();
+
+        function say(studentname)                                       //yes argument and no return
+            {
+               console.log(`say Hello 👋 ${studentname}`)
+            }
+            say('Rohan');
+
+        function SI()                                                   //no argument and yes return
+            {                                                 
+                return 7.8;
+            }
+        const interest = SI();
+        console.log(interest)
+
+        function areacircle(radius)                                   //yes argument and yes return      (area of cirle and radius is passed as parameter)
+            {
+               const area = 3.14 * radius * radius;
+               return area;
+            }
+        const area1 = areacircle(6)
+        console.log(`area of the circle is ${area1}`)
+
+    </script>
+</body>
+
+</html>
